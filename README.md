@@ -23,4 +23,4 @@ and delete ads for a particular product.
 
 ### Reflux
 
-The are two refuls stores. One for products and the other is for ads.
+The are two reflux stores. One for products and the other is for ads.
