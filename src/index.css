@@ -1,13 +1,37 @@
+/* https://material.io/resources/color/#!/?view.left=1&view.right=0&primary.color=263238&secondary.color=26A69A&secondary.text.color=000000&primary.text.color=ffffff */
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+        "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+/* Colors */
+.primary-color {
+    background-color: #263238;
+    color: white;
+}
+
+.primary-color-light {
+    background-color: #4f5b62;
+    color: white;
+}
+
+.primary-color-dark {
+    background-color: #000a12;
+    color: white;
 }
